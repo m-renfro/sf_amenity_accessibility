@@ -21,10 +21,12 @@ Matt Renfro
 **Geographic distribution:** Map census tracts and amenities
 - Drop census tracts with populaiton of 0 or null
 - Generate centroids for each census tract
-- Sanp census tract centroids to network
-- _Repeat this process for parks, snap school and healthcare facility points to netowrk_
+- Sanp census tract centroids to the nearest node on network
+- _Repeat this process for parks, snap school and healthcare facility points to network_
   
 **Measuring accessibility:** Calculate accessibility metrics
+- Calculate the number of parks/schools/healthcare facilities within 1000 meter walking distance from each census tract node
+- Calculate the shortest path and distance (in meters) from each census tract node to the nearest park/school/healthcare facility 
 
 **Analyzing who has access:** Use demographic information such as race/ethnicity and income to measure who has access to amenities 
 
