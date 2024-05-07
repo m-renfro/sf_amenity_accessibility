@@ -52,7 +52,7 @@ I cleaned the parks property dataset by dropping the following park property typ
 
 <iframe src="index/park_map.html" width="100%" height="600px"></iframe>
 
-Figure 1.0 shows the geographic distribution of parks in San Francisco. Parks provide important recreational, health, environmental, and communal benefits for cities. San Francsico  has a reputation of having some of the [best parks in the country] (https://www.axios.com/local/san-francisco/2023/06/05/san-francisco-best-parks-ranking). In fact, Golden Gate Park was recently nominated for [best city park in the nation](https://www.kron4.com/news/bay-area/golden-gate-park-nominated-for-best-city-park-in-u-s/).  I was curious to see which areas in San Francisco have the best park accessibility in terms of the number of parks within a 1000m walking distance
+Figure 1.0 shows the geographic distribution of parks in San Francisco. Parks provide important recreational, health, environmental, and communal benefits for cities. San Francsico  has a reputation of having some of the [best parks in the country](https://www.axios.com/local/san-francisco/2023/06/05/san-francisco-best-parks-ranking). In fact, Golden Gate Park was recently nominated for [best city park in the nation](https://www.kron4.com/news/bay-area/golden-gate-park-nominated-for-best-city-park-in-u-s/).  I was curious to see which areas in San Francisco have the best park accessibility in terms of the number of parks within a 1000m walking distance
 
 **Figure 1.1: Number of Parks Within a 1000m Walking Distance by Census Tract (Percentile Ranking)**
 <iframe src="index/parks_percentile.html" width="100%" height="600px"></iframe> 
