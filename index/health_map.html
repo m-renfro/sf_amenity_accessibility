@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_703ec869229afcbbd04cc47a56e4bb5e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_703ec869229afcbbd04cc47a56e4bb5e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_703ec869229afcbbd04cc47a56e4bb5e = L.map(
+                "map_703ec869229afcbbd04cc47a56e4bb5e",
+                {
+                    center: [37.7749, -122.4194],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f91faa31b9f6b95ecc10dd688d87a32 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_8f91faa31b9f6b95ecc10dd688d87a32.addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+            var circle_marker_d179e9cff99092f75bbcfff79386573c = L.circleMarker(
+                [37.79142444, -122.43103755],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_84f1492d851524600df465c892184d7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc03c7189893bccebe1a2a443be95125 = $(`<div id="html_cc03c7189893bccebe1a2a443be95125" style="width: 100.0%; height: 100.0%;">California Pacific Med Ctr-pacific Campus</div>`)[0];
+                popup_84f1492d851524600df465c892184d7c.setContent(html_cc03c7189893bccebe1a2a443be95125);
+            
+        
+
+        circle_marker_d179e9cff99092f75bbcfff79386573c.bindPopup(popup_84f1492d851524600df465c892184d7c)
+        ;
+
+        
+    
+    
+            var circle_marker_85c70a530ed8d0e56dc2285cf4ec6ef1 = L.circleMarker(
+                [37.79846727, -122.40385594],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_d7ba4c74ed7e89d7390fdf98f92a8533 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c947cfb79e830f423b5b30884d371d6 = $(`<div id="html_9c947cfb79e830f423b5b30884d371d6" style="width: 100.0%; height: 100.0%;">On Lok Senior Health Services</div>`)[0];
+                popup_d7ba4c74ed7e89d7390fdf98f92a8533.setContent(html_9c947cfb79e830f423b5b30884d371d6);
+            
+        
+
+        circle_marker_85c70a530ed8d0e56dc2285cf4ec6ef1.bindPopup(popup_d7ba4c74ed7e89d7390fdf98f92a8533)
+        ;
+
+        
+    
+    
+            var circle_marker_eebe40600da6b66ae334b46b1a76c982 = L.circleMarker(
+                [37.78246781, -122.44834319],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_69494923e59e3d23e32e2c8c6cda77f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23ba0cb46fd1d8868f12100609606e15 = $(`<div id="html_23ba0cb46fd1d8868f12100609606e15" style="width: 100.0%; height: 100.0%;">Institute On Aging</div>`)[0];
+                popup_69494923e59e3d23e32e2c8c6cda77f6.setContent(html_23ba0cb46fd1d8868f12100609606e15);
+            
+        
+
+        circle_marker_eebe40600da6b66ae334b46b1a76c982.bindPopup(popup_69494923e59e3d23e32e2c8c6cda77f6)
+        ;
+
+        
+    
+    
+            var circle_marker_6fdcc4ac7d3e6d7657737472b2dbb590 = L.circleMarker(
+                [37.77029461, -122.44870302],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_da8caeb3d9296528edb38415cdb957ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bb3f556c1b6f35604b83b4c12acfff0 = $(`<div id="html_6bb3f556c1b6f35604b83b4c12acfff0" style="width: 100.0%; height: 100.0%;">Drug Detoxification, Rehab And After Care Svs. Prog.</div>`)[0];
+                popup_da8caeb3d9296528edb38415cdb957ed.setContent(html_6bb3f556c1b6f35604b83b4c12acfff0);
+            
+        
+
+        circle_marker_6fdcc4ac7d3e6d7657737472b2dbb590.bindPopup(popup_da8caeb3d9296528edb38415cdb957ed)
+        ;
+
+        
+    
+    
+            var circle_marker_4779e0604c339cc2027643c1cc4beeff = L.circleMarker(
+                [37.7865244, -122.43338309],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_594e898489dcf774dd9a0bd6e4e41351 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dfad6f6918d07a0740167ad1d10e4fd = $(`<div id="html_5dfad6f6918d07a0740167ad1d10e4fd" style="width: 100.0%; height: 100.0%;">Woman's Community Clinic/tides Center</div>`)[0];
+                popup_594e898489dcf774dd9a0bd6e4e41351.setContent(html_5dfad6f6918d07a0740167ad1d10e4fd);
+            
+        
+
+        circle_marker_4779e0604c339cc2027643c1cc4beeff.bindPopup(popup_594e898489dcf774dd9a0bd6e4e41351)
+        ;
+
+        
+    
+    
+            var circle_marker_0c35a8ef95fccda308c911eaabe9bc75 = L.circleMarker(
+                [37.73222744, -122.40651746],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_d36d90f947a3e3c38cc9b854bc572f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ce20618d2258f7f684dc568fe5a24f9 = $(`<div id="html_1ce20618d2258f7f684dc568fe5a24f9" style="width: 100.0%; height: 100.0%;">Silver Avenue Family Health Center</div>`)[0];
+                popup_d36d90f947a3e3c38cc9b854bc572f35.setContent(html_1ce20618d2258f7f684dc568fe5a24f9);
+            
+        
+
+        circle_marker_0c35a8ef95fccda308c911eaabe9bc75.bindPopup(popup_d36d90f947a3e3c38cc9b854bc572f35)
+        ;
+
+        
+    
+    
+            var circle_marker_60b5cef8451d52aed53e5c82327e5147 = L.circleMarker(
+                [37.77125833, -122.4194887],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_ae9bae4f867e8d68bc1e2057554e6f70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf431c6d861a343c0e1f7bbef43b530e = $(`<div id="html_cf431c6d861a343c0e1f7bbef43b530e" style="width: 100.0%; height: 100.0%;">Mission Neighborhood Health Centers-lpc</div>`)[0];
+                popup_ae9bae4f867e8d68bc1e2057554e6f70.setContent(html_cf431c6d861a343c0e1f7bbef43b530e);
+            
+        
+
+        circle_marker_60b5cef8451d52aed53e5c82327e5147.bindPopup(popup_ae9bae4f867e8d68bc1e2057554e6f70)
+        ;
+
+        
+    
+    
+            var circle_marker_167a4214bbc776fda7623e7fa582b50b = L.circleMarker(
+                [37.78123364, -122.45766762],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_04a1ae2ca6f8cd2540591d0130e416e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6adee44679d6c0547ec73e33417f4250 = $(`<div id="html_6adee44679d6c0547ec73e33417f4250" style="width: 100.0%; height: 100.0%;">Lifeways Pace At The Coronet</div>`)[0];
+                popup_04a1ae2ca6f8cd2540591d0130e416e8.setContent(html_6adee44679d6c0547ec73e33417f4250);
+            
+        
+
+        circle_marker_167a4214bbc776fda7623e7fa582b50b.bindPopup(popup_04a1ae2ca6f8cd2540591d0130e416e8)
+        ;
+
+        
+    
+    
+            var circle_marker_5a588d758cff417f59470415b45d0bfe = L.circleMarker(
+                [37.76411733, -122.41866509],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_8586cc6d7dfed2e023e77997741b127c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2313b04e83797efe1ebfd8bbed626b3 = $(`<div id="html_c2313b04e83797efe1ebfd8bbed626b3" style="width: 100.0%; height: 100.0%;">Native American Health Center</div>`)[0];
+                popup_8586cc6d7dfed2e023e77997741b127c.setContent(html_c2313b04e83797efe1ebfd8bbed626b3);
+            
+        
+
+        circle_marker_5a588d758cff417f59470415b45d0bfe.bindPopup(popup_8586cc6d7dfed2e023e77997741b127c)
+        ;
+
+        
+    
+    
+            var circle_marker_588d31fe61b9207a78bba01e60ec8a46 = L.circleMarker(
+                [37.77838372, -122.41869572],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_3114c72932f43700bf0bc5bf1c7a0230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf355a2c9dc8c631773ab573bd619a92 = $(`<div id="html_bf355a2c9dc8c631773ab573bd619a92" style="width: 100.0%; height: 100.0%;">Adult Immunization & Travel Clinic</div>`)[0];
+                popup_3114c72932f43700bf0bc5bf1c7a0230.setContent(html_bf355a2c9dc8c631773ab573bd619a92);
+            
+        
+
+        circle_marker_588d31fe61b9207a78bba01e60ec8a46.bindPopup(popup_3114c72932f43700bf0bc5bf1c7a0230)
+        ;
+
+        
+    
+    
+            var circle_marker_612b4f6ae69ac080fa6a57c93b5afaac = L.circleMarker(
+                [37.78614406, -122.45591166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_1892160035850da3fca07ad8ace9ef2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7fc6e90612c11ee1f0d548d252648f3 = $(`<div id="html_c7fc6e90612c11ee1f0d548d252648f3" style="width: 100.0%; height: 100.0%;">California Pacific Med Ctr-california West</div>`)[0];
+                popup_1892160035850da3fca07ad8ace9ef2f.setContent(html_c7fc6e90612c11ee1f0d548d252648f3);
+            
+        
+
+        circle_marker_612b4f6ae69ac080fa6a57c93b5afaac.bindPopup(popup_1892160035850da3fca07ad8ace9ef2f)
+        ;
+
+        
+    
+    
+            var circle_marker_246d0fab30a0a0b2a1a92f81c91d0021 = L.circleMarker(
+                [37.76271772, -122.43184067],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_fa8a070c52d03e45fab78d628ee9ee58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3d2239ea93483257b40a85e66b38ae7 = $(`<div id="html_e3d2239ea93483257b40a85e66b38ae7" style="width: 100.0%; height: 100.0%;">Castro-mission Health Center</div>`)[0];
+                popup_fa8a070c52d03e45fab78d628ee9ee58.setContent(html_e3d2239ea93483257b40a85e66b38ae7);
+            
+        
+
+        circle_marker_246d0fab30a0a0b2a1a92f81c91d0021.bindPopup(popup_fa8a070c52d03e45fab78d628ee9ee58)
+        ;
+
+        
+    
+    
+            var circle_marker_da1e312b181811ebf02b7ae8e55036dc = L.circleMarker(
+                [37.75341278, -122.48927463],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_68293ccf44059b721aa6dd67c67d497c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9118106d0f2026d7c5bc66b645429a0b = $(`<div id="html_9118106d0f2026d7c5bc66b645429a0b" style="width: 100.0%; height: 100.0%;">Chinese Community Health Services</div>`)[0];
+                popup_68293ccf44059b721aa6dd67c67d497c.setContent(html_9118106d0f2026d7c5bc66b645429a0b);
+            
+        
+
+        circle_marker_da1e312b181811ebf02b7ae8e55036dc.bindPopup(popup_68293ccf44059b721aa6dd67c67d497c)
+        ;
+
+        
+    
+    
+            var circle_marker_83ec3f38476720730f3de0cb186cc033 = L.circleMarker(
+                [37.79788399, -122.41037284],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_5c320935651d4013ec97bd211c570bdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8a4755620ad9e6fae06a14655bc3723 = $(`<div id="html_a8a4755620ad9e6fae06a14655bc3723" style="width: 100.0%; height: 100.0%;">On Lok Senior Health Services - Powell</div>`)[0];
+                popup_5c320935651d4013ec97bd211c570bdb.setContent(html_a8a4755620ad9e6fae06a14655bc3723);
+            
+        
+
+        circle_marker_83ec3f38476720730f3de0cb186cc033.bindPopup(popup_5c320935651d4013ec97bd211c570bdb)
+        ;
+
+        
+    
+    
+            var circle_marker_e5b068b841877d04954b4aaaa7bb1973 = L.circleMarker(
+                [37.78276346, -122.42154565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_0e4e1461717f16cf34d0b5479042e9b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e1c2ccee02f62cf369f14dea85759c0 = $(`<div id="html_1e1c2ccee02f62cf369f14dea85759c0" style="width: 100.0%; height: 100.0%;">Planned Parenthood Golden Gate</div>`)[0];
+                popup_0e4e1461717f16cf34d0b5479042e9b6.setContent(html_1e1c2ccee02f62cf369f14dea85759c0);
+            
+        
+
+        circle_marker_e5b068b841877d04954b4aaaa7bb1973.bindPopup(popup_0e4e1461717f16cf34d0b5479042e9b6)
+        ;
+
+        
+    
+    
+            var circle_marker_ad8952008aca85c7f39223994a3f1607 = L.circleMarker(
+                [37.77380449, -122.45440679],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_37e0d383a8af34c0a9402b7f7867ab9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db3a2dea401725f926fdb458880725ca = $(`<div id="html_db3a2dea401725f926fdb458880725ca" style="width: 100.0%; height: 100.0%;">St. Mary's Medical Center, San Francisco</div>`)[0];
+                popup_37e0d383a8af34c0a9402b7f7867ab9b.setContent(html_db3a2dea401725f926fdb458880725ca);
+            
+        
+
+        circle_marker_ad8952008aca85c7f39223994a3f1607.bindPopup(popup_37e0d383a8af34c0a9402b7f7867ab9b)
+        ;
+
+        
+    
+    
+            var circle_marker_adb2cf3c6230d2da4066ffce725fa854 = L.circleMarker(
+                [37.78413785, -122.41154248],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_8705ce8d75d60743fbd5f2853ef01bdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c82c5a1004bcb45b6ea472b020c1965 = $(`<div id="html_9c82c5a1004bcb45b6ea472b020c1965" style="width: 100.0%; height: 100.0%;">Housing And Urban Health Clinic</div>`)[0];
+                popup_8705ce8d75d60743fbd5f2853ef01bdf.setContent(html_9c82c5a1004bcb45b6ea472b020c1965);
+            
+        
+
+        circle_marker_adb2cf3c6230d2da4066ffce725fa854.bindPopup(popup_8705ce8d75d60743fbd5f2853ef01bdf)
+        ;
+
+        
+    
+    
+            var circle_marker_a7a70c1723c1e6adf2402bb12bc1cf04 = L.circleMarker(
+                [37.78882313, -122.41904637],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_7683635c978eda18d573f43d433251dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_147aa2b619f06125a7c10d4fb79ade8e = $(`<div id="html_147aa2b619f06125a7c10d4fb79ade8e" style="width: 100.0%; height: 100.0%;">On Lok Senior Health Services - Bush St</div>`)[0];
+                popup_7683635c978eda18d573f43d433251dd.setContent(html_147aa2b619f06125a7c10d4fb79ade8e);
+            
+        
+
+        circle_marker_a7a70c1723c1e6adf2402bb12bc1cf04.bindPopup(popup_7683635c978eda18d573f43d433251dd)
+        ;
+
+        
+    
+    
+            var circle_marker_aa36d316b74cd4e24f3bbf3361884044 = L.circleMarker(
+                [37.75617447, -122.40659471],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_f695312f43f942c82f4fdc7aaa9366de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_984760af901e39d68a89d85b0a30b42e = $(`<div id="html_984760af901e39d68a89d85b0a30b42e" style="width: 100.0%; height: 100.0%;">Women's Health Center</div>`)[0];
+                popup_f695312f43f942c82f4fdc7aaa9366de.setContent(html_984760af901e39d68a89d85b0a30b42e);
+            
+        
+
+        circle_marker_aa36d316b74cd4e24f3bbf3361884044.bindPopup(popup_f695312f43f942c82f4fdc7aaa9366de)
+        ;
+
+        
+    
+    
+            var circle_marker_620901acb35a7a3a33057026f77aacf1 = L.circleMarker(
+                [37.79693062, -122.41177222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_dbb77df5f3d40eba0345cde09c5ea689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acafe64f3946136e0bde649e7ecda629 = $(`<div id="html_acafe64f3946136e0bde649e7ecda629" style="width: 100.0%; height: 100.0%;">Chinatown Health Center</div>`)[0];
+                popup_dbb77df5f3d40eba0345cde09c5ea689.setContent(html_acafe64f3946136e0bde649e7ecda629);
+            
+        
+
+        circle_marker_620901acb35a7a3a33057026f77aacf1.bindPopup(popup_dbb77df5f3d40eba0345cde09c5ea689)
+        ;
+
+        
+    
+    
+            var circle_marker_166c446a5a3b464ab31098e88eaeb0f3 = L.circleMarker(
+                [37.75577951, -122.40619566],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_b999ca00439ff23735ae7c9098bf29b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4a18b30567a0ffd3f58c50750374945 = $(`<div id="html_f4a18b30567a0ffd3f58c50750374945" style="width: 100.0%; height: 100.0%;">Children's Health Center At Sfgh</div>`)[0];
+                popup_b999ca00439ff23735ae7c9098bf29b8.setContent(html_f4a18b30567a0ffd3f58c50750374945);
+            
+        
+
+        circle_marker_166c446a5a3b464ab31098e88eaeb0f3.bindPopup(popup_b999ca00439ff23735ae7c9098bf29b8)
+        ;
+
+        
+    
+    
+            var circle_marker_f291d6eee87e52da57ca08f23f415777 = L.circleMarker(
+                [37.7694838, -122.4199175],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_cd54b718e6b83a2e3b0b01b5f4ce4f69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e733151986b15f2698df195d0f003b4 = $(`<div id="html_7e733151986b15f2698df195d0f003b4" style="width: 100.0%; height: 100.0%;">Haight Ashbury Integrated Care Center</div>`)[0];
+                popup_cd54b718e6b83a2e3b0b01b5f4ce4f69.setContent(html_7e733151986b15f2698df195d0f003b4);
+            
+        
+
+        circle_marker_f291d6eee87e52da57ca08f23f415777.bindPopup(popup_cd54b718e6b83a2e3b0b01b5f4ce4f69)
+        ;
+
+        
+    
+    
+            var circle_marker_ea30006973766ee5eaef61c44c03479d = L.circleMarker(
+                [37.76336734, -122.45856738],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_9530d78306d37636d642bccb75a6faf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b18723e49bdc13e8df23c8048aab0816 = $(`<div id="html_b18723e49bdc13e8df23c8048aab0816" style="width: 100.0%; height: 100.0%;">Ucsf Medical Center</div>`)[0];
+                popup_9530d78306d37636d642bccb75a6faf2.setContent(html_b18723e49bdc13e8df23c8048aab0816);
+            
+        
+
+        circle_marker_ea30006973766ee5eaef61c44c03479d.bindPopup(popup_9530d78306d37636d642bccb75a6faf2)
+        ;
+
+        
+    
+    
+            var circle_marker_1673156268bd701d52aeb6a0b4535c39 = L.circleMarker(
+                [37.79566209, -122.40917233],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_bb34c45a7ed7b1a3a954b14e27e73d31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db0562a7efffd7214d837ca7d1731446 = $(`<div id="html_db0562a7efffd7214d837ca7d1731446" style="width: 100.0%; height: 100.0%;">Chinese Hospital</div>`)[0];
+                popup_bb34c45a7ed7b1a3a954b14e27e73d31.setContent(html_db0562a7efffd7214d837ca7d1731446);
+            
+        
+
+        circle_marker_1673156268bd701d52aeb6a0b4535c39.bindPopup(popup_bb34c45a7ed7b1a3a954b14e27e73d31)
+        ;
+
+        
+    
+    
+            var circle_marker_a3c908233e81f89c53f77efabddc04b1 = L.circleMarker(
+                [37.77587757, -122.41935578],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_51558cbcd5f52b284e732f867d15c465 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f41ef7f039c4eeda9acf5912c9f8bb2f = $(`<div id="html_f41ef7f039c4eeda9acf5912c9f8bb2f" style="width: 100.0%; height: 100.0%;">Breast & Cervical Cancer Services</div>`)[0];
+                popup_51558cbcd5f52b284e732f867d15c465.setContent(html_f41ef7f039c4eeda9acf5912c9f8bb2f);
+            
+        
+
+        circle_marker_a3c908233e81f89c53f77efabddc04b1.bindPopup(popup_51558cbcd5f52b284e732f867d15c465)
+        ;
+
+        
+    
+    
+            var circle_marker_d9e7c3b4cc5ae6d05ceb0bf64252f77b = L.circleMarker(
+                [37.75034371, -122.41819551],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_a2a7ebe488fc8c6cfa6ed6e09ae5ad85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4f97d8c463f52d9a5f77753fb480240 = $(`<div id="html_a4f97d8c463f52d9a5f77753fb480240" style="width: 100.0%; height: 100.0%;">Instituto Familiar De La Raza - Outpatient</div>`)[0];
+                popup_a2a7ebe488fc8c6cfa6ed6e09ae5ad85.setContent(html_a4f97d8c463f52d9a5f77753fb480240);
+            
+        
+
+        circle_marker_d9e7c3b4cc5ae6d05ceb0bf64252f77b.bindPopup(popup_a2a7ebe488fc8c6cfa6ed6e09ae5ad85)
+        ;
+
+        
+    
+    
+            var circle_marker_6cb007e5dbe92a85f49ca14c9cacb27b = L.circleMarker(
+                [37.72674014, -122.43329371],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_fa9cf0e06f151f71920bd0fdd3aae501 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_730d91db5140d6919eb3e08b269b4710 = $(`<div id="html_730d91db5140d6919eb3e08b269b4710" style="width: 100.0%; height: 100.0%;">On Lok Senior Health Services-mission Center</div>`)[0];
+                popup_fa9cf0e06f151f71920bd0fdd3aae501.setContent(html_730d91db5140d6919eb3e08b269b4710);
+            
+        
+
+        circle_marker_6cb007e5dbe92a85f49ca14c9cacb27b.bindPopup(popup_fa9cf0e06f151f71920bd0fdd3aae501)
+        ;
+
+        
+    
+    
+            var circle_marker_4338bfbbd1d23ae3e54dff4c48a73bb3 = L.circleMarker(
+                [37.79989739, -122.40902523],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_8ff60119fb1b3d1fb441f17ac310df56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5509cfdf0330ec180c8245dc786ceee9 = $(`<div id="html_5509cfdf0330ec180c8245dc786ceee9" style="width: 100.0%; height: 100.0%;">North East Medical Services</div>`)[0];
+                popup_8ff60119fb1b3d1fb441f17ac310df56.setContent(html_5509cfdf0330ec180c8245dc786ceee9);
+            
+        
+
+        circle_marker_4338bfbbd1d23ae3e54dff4c48a73bb3.bindPopup(popup_8ff60119fb1b3d1fb441f17ac310df56)
+        ;
+
+        
+    
+    
+            var circle_marker_53e48358da563a6e19ac1d55281d4212 = L.circleMarker(
+                [37.76999193, -122.450374],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_98798f7f73e3abf7880ba339b69e4aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bb56abf14f30f6698248106d10bd175 = $(`<div id="html_5bb56abf14f30f6698248106d10bd175" style="width: 100.0%; height: 100.0%;">Cole Street Clinic</div>`)[0];
+                popup_98798f7f73e3abf7880ba339b69e4aa0.setContent(html_5bb56abf14f30f6698248106d10bd175);
+            
+        
+
+        circle_marker_53e48358da563a6e19ac1d55281d4212.bindPopup(popup_98798f7f73e3abf7880ba339b69e4aa0)
+        ;
+
+        
+    
+    
+            var circle_marker_a5c29bd462970fdfbf7f67e134d3b782 = L.circleMarker(
+                [37.72668158, -122.43337675],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_34ae8fe9b9b62747d7c152af95f7c00b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27aaa8d5543f258095a920ebcabe18df = $(`<div id="html_27aaa8d5543f258095a920ebcabe18df" style="width: 100.0%; height: 100.0%;">Mission Neighborhood Health Ctr.-excelsior Clinic</div>`)[0];
+                popup_34ae8fe9b9b62747d7c152af95f7c00b.setContent(html_27aaa8d5543f258095a920ebcabe18df);
+            
+        
+
+        circle_marker_a5c29bd462970fdfbf7f67e134d3b782.bindPopup(popup_34ae8fe9b9b62747d7c152af95f7c00b)
+        ;
+
+        
+    
+    
+            var circle_marker_22e578883dead2d81ef3cc7ab9082d96 = L.circleMarker(
+                [37.78477686, -122.43972581],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_3ff51e7097765112f29d552f39b17673 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab3df3671f8299ae2122db941723e1f7 = $(`<div id="html_ab3df3671f8299ae2122db941723e1f7" style="width: 100.0%; height: 100.0%;">Ucsf Medical Center At Mount Zion</div>`)[0];
+                popup_3ff51e7097765112f29d552f39b17673.setContent(html_ab3df3671f8299ae2122db941723e1f7);
+            
+        
+
+        circle_marker_22e578883dead2d81ef3cc7ab9082d96.bindPopup(popup_3ff51e7097765112f29d552f39b17673)
+        ;
+
+        
+    
+    
+            var circle_marker_bc398a8928ae36ea38caa58ecb845dd5 = L.circleMarker(
+                [37.75412784, -122.47940016],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_668b72d602b15a2220279796592c9be2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a9a16be63c2dc82b901397131dfe558 = $(`<div id="html_9a9a16be63c2dc82b901397131dfe558" style="width: 100.0%; height: 100.0%;">North East Medical Services - Noriega</div>`)[0];
+                popup_668b72d602b15a2220279796592c9be2.setContent(html_9a9a16be63c2dc82b901397131dfe558);
+            
+        
+
+        circle_marker_bc398a8928ae36ea38caa58ecb845dd5.bindPopup(popup_668b72d602b15a2220279796592c9be2)
+        ;
+
+        
+    
+    
+            var circle_marker_07436af948b34e1cf08c61942ec0b2c8 = L.circleMarker(
+                [37.75427069, -122.39873528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_13eaa4f458645695a98f2dd92d8f0862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e5d5db605628d5e22832a1789c32180 = $(`<div id="html_8e5d5db605628d5e22832a1789c32180" style="width: 100.0%; height: 100.0%;">Potrero Hill Health Center</div>`)[0];
+                popup_13eaa4f458645695a98f2dd92d8f0862.setContent(html_8e5d5db605628d5e22832a1789c32180);
+            
+        
+
+        circle_marker_07436af948b34e1cf08c61942ec0b2c8.bindPopup(popup_13eaa4f458645695a98f2dd92d8f0862)
+        ;
+
+        
+    
+    
+            var circle_marker_e3a993900cb55de4024392398f6d41f2 = L.circleMarker(
+                [37.7640344, -122.41855477],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_1ca5a310254c07b1d92cc4ea11df41ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf11fe3904625089ec993547550864ed = $(`<div id="html_cf11fe3904625089ec993547550864ed" style="width: 100.0%; height: 100.0%;">Mission Neighborhood Resource Center</div>`)[0];
+                popup_1ca5a310254c07b1d92cc4ea11df41ee.setContent(html_cf11fe3904625089ec993547550864ed);
+            
+        
+
+        circle_marker_e3a993900cb55de4024392398f6d41f2.bindPopup(popup_1ca5a310254c07b1d92cc4ea11df41ee)
+        ;
+
+        
+    
+    
+            var circle_marker_312a6bec30bd2458be499e04db26bbdb = L.circleMarker(
+                [37.78934797, -122.40778304],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_afc3df8a53924d7bba10ae4a4182cd99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62e29a71a784b78fb00252cff0b23995 = $(`<div id="html_62e29a71a784b78fb00252cff0b23995" style="width: 100.0%; height: 100.0%;">First Resort</div>`)[0];
+                popup_afc3df8a53924d7bba10ae4a4182cd99.setContent(html_62e29a71a784b78fb00252cff0b23995);
+            
+        
+
+        circle_marker_312a6bec30bd2458be499e04db26bbdb.bindPopup(popup_afc3df8a53924d7bba10ae4a4182cd99)
+        ;
+
+        
+    
+    
+            var circle_marker_acd0a8a154f79829aebab275ea2f166b = L.circleMarker(
+                [37.71582646, -122.43940102],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_e756e14293a159143ad201121995104c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2e05b60b003d2f207403ae73a16d149 = $(`<div id="html_e2e05b60b003d2f207403ae73a16d149" style="width: 100.0%; height: 100.0%;">Chinese Hospital's Excelsior Health Services</div>`)[0];
+                popup_e756e14293a159143ad201121995104c.setContent(html_e2e05b60b003d2f207403ae73a16d149);
+            
+        
+
+        circle_marker_acd0a8a154f79829aebab275ea2f166b.bindPopup(popup_e756e14293a159143ad201121995104c)
+        ;
+
+        
+    
+    
+            var circle_marker_6feee74ec1c5c22ddd55ab43a0a2acd5 = L.circleMarker(
+                [37.78740232, -122.4535495],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_84ad7a75bad01ca7a7cdb5e0c5774944 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cca38d8a240c95e7f4920a95c600d94 = $(`<div id="html_7cca38d8a240c95e7f4920a95c600d94" style="width: 100.0%; height: 100.0%;">California Pacific Med Ctr-california East</div>`)[0];
+                popup_84ad7a75bad01ca7a7cdb5e0c5774944.setContent(html_7cca38d8a240c95e7f4920a95c600d94);
+            
+        
+
+        circle_marker_6feee74ec1c5c22ddd55ab43a0a2acd5.bindPopup(popup_84ad7a75bad01ca7a7cdb5e0c5774944)
+        ;
+
+        
+    
+    
+            var circle_marker_46385622dcca153e028f22fad2d8673b = L.circleMarker(
+                [37.78246323, -122.41634657],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_12478bcf3aa63215e4ccc6290c948134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d35dc9445b906ec7b4a03495f333b090 = $(`<div id="html_d35dc9445b906ec7b4a03495f333b090" style="width: 100.0%; height: 100.0%;">Baart Turk Street Clinic</div>`)[0];
+                popup_12478bcf3aa63215e4ccc6290c948134.setContent(html_d35dc9445b906ec7b4a03495f333b090);
+            
+        
+
+        circle_marker_46385622dcca153e028f22fad2d8673b.bindPopup(popup_12478bcf3aa63215e4ccc6290c948134)
+        ;
+
+        
+    
+    
+            var circle_marker_daaee7926067462c97b5d9449f75183f = L.circleMarker(
+                [37.78458778, -122.47009063],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_4b3c0d2776d973d1c865512b736749f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8469fba84d5a20091b43ea9b56840fd6 = $(`<div id="html_8469fba84d5a20091b43ea9b56840fd6" style="width: 100.0%; height: 100.0%;">San Francisco Free Clinic</div>`)[0];
+                popup_4b3c0d2776d973d1c865512b736749f7.setContent(html_8469fba84d5a20091b43ea9b56840fd6);
+            
+        
+
+        circle_marker_daaee7926067462c97b5d9449f75183f.bindPopup(popup_4b3c0d2776d973d1c865512b736749f7)
+        ;
+
+        
+    
+    
+            var circle_marker_d209a50b46aca50d9ae2f59cd887df53 = L.circleMarker(
+                [37.76238083, -122.48249495],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_79de0b02c9bb16e044a425e04e335d76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5e3e2f4f98e1a4b6ed8846e23ebd7b8 = $(`<div id="html_e5e3e2f4f98e1a4b6ed8846e23ebd7b8" style="width: 100.0%; height: 100.0%;">Ocean Park Health Center</div>`)[0];
+                popup_79de0b02c9bb16e044a425e04e335d76.setContent(html_e5e3e2f4f98e1a4b6ed8846e23ebd7b8);
+            
+        
+
+        circle_marker_d209a50b46aca50d9ae2f59cd887df53.bindPopup(popup_79de0b02c9bb16e044a425e04e335d76)
+        ;
+
+        
+    
+    
+            var circle_marker_0a3473d3b6f575b0d3d2eff7112849f1 = L.circleMarker(
+                [37.78956798, -122.41706621],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_fb5688a0d1d6ffb05035ad0fd2895dbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dbd030359912aa86d7de76ecf9b6e6b = $(`<div id="html_3dbd030359912aa86d7de76ecf9b6e6b" style="width: 100.0%; height: 100.0%;">St. Francis Memorial Hospital</div>`)[0];
+                popup_fb5688a0d1d6ffb05035ad0fd2895dbb.setContent(html_3dbd030359912aa86d7de76ecf9b6e6b);
+            
+        
+
+        circle_marker_0a3473d3b6f575b0d3d2eff7112849f1.bindPopup(popup_fb5688a0d1d6ffb05035ad0fd2895dbb)
+        ;
+
+        
+    
+    
+            var circle_marker_5af96a71e25fee915af89e14cb0ea86b = L.circleMarker(
+                [37.78794224, -122.4191218],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_72090970c478f0a438f43a50c12fe39b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36df79aa38f198ed42cbaed87345d4f6 = $(`<div id="html_36df79aa38f198ed42cbaed87345d4f6" style="width: 100.0%; height: 100.0%;">Larkin Street Medical Clinic</div>`)[0];
+                popup_72090970c478f0a438f43a50c12fe39b.setContent(html_36df79aa38f198ed42cbaed87345d4f6);
+            
+        
+
+        circle_marker_5af96a71e25fee915af89e14cb0ea86b.bindPopup(popup_72090970c478f0a438f43a50c12fe39b)
+        ;
+
+        
+    
+    
+            var circle_marker_f5993c9cbdeb9a5a7abdc00de721f5fd = L.circleMarker(
+                [37.74804296, -122.42124885],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_82bdb0d0eeb81f6ec1112c188c8b5ff8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92110142c79a9a215c6c17de1a15afac = $(`<div id="html_92110142c79a9a215c6c17de1a15afac" style="width: 100.0%; height: 100.0%;">California Pacific Medical Center - St. Luke's Campus</div>`)[0];
+                popup_82bdb0d0eeb81f6ec1112c188c8b5ff8.setContent(html_92110142c79a9a215c6c17de1a15afac);
+            
+        
+
+        circle_marker_f5993c9cbdeb9a5a7abdc00de721f5fd.bindPopup(popup_82bdb0d0eeb81f6ec1112c188c8b5ff8)
+        ;
+
+        
+    
+    
+            var circle_marker_3582ce90ae7e7d715487b5e259ff09eb = L.circleMarker(
+                [37.74571703, -122.45226708],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_b107bfd2d036b86a88adfaf6074575e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ae37bff4649e2b644e3a9e92e645235 = $(`<div id="html_3ae37bff4649e2b644e3a9e92e645235" style="width: 100.0%; height: 100.0%;">Special Programs For Youth</div>`)[0];
+                popup_b107bfd2d036b86a88adfaf6074575e6.setContent(html_3ae37bff4649e2b644e3a9e92e645235);
+            
+        
+
+        circle_marker_3582ce90ae7e7d715487b5e259ff09eb.bindPopup(popup_b107bfd2d036b86a88adfaf6074575e6)
+        ;
+
+        
+    
+    
+            var circle_marker_d88e5c2531c070cc1e1782ea7b36d287 = L.circleMarker(
+                [37.74611894, -122.42012355],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_ac99be30f4031bfbb4504113e2530cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_708dcf06afe3546c1ae9272adce04140 = $(`<div id="html_708dcf06afe3546c1ae9272adce04140" style="width: 100.0%; height: 100.0%;">Planned Parenthood San Francisco Center</div>`)[0];
+                popup_ac99be30f4031bfbb4504113e2530cc1.setContent(html_708dcf06afe3546c1ae9272adce04140);
+            
+        
+
+        circle_marker_d88e5c2531c070cc1e1782ea7b36d287.bindPopup(popup_ac99be30f4031bfbb4504113e2530cc1)
+        ;
+
+        
+    
+    
+            var circle_marker_f83020a0c22fc3b2adc123f4b9a4adf4 = L.circleMarker(
+                [37.76472768, -122.41635344],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_919c05f6b4dfbb2f4b255851cc4f5e9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86e0baba9a11bf03a573b6b1050d599b = $(`<div id="html_86e0baba9a11bf03a573b6b1050d599b" style="width: 100.0%; height: 100.0%;">Mission Neighborhood Health Center</div>`)[0];
+                popup_919c05f6b4dfbb2f4b255851cc4f5e9c.setContent(html_86e0baba9a11bf03a573b6b1050d599b);
+            
+        
+
+        circle_marker_f83020a0c22fc3b2adc123f4b9a4adf4.bindPopup(popup_919c05f6b4dfbb2f4b255851cc4f5e9c)
+        ;
+
+        
+    
+    
+            var circle_marker_dd00a909856986d5763b17f94b887588 = L.circleMarker(
+                [37.77575714, -122.49761417],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_69affd6705b569d19d88793efdeb3d7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b86fca63c980524a2063cb347ec7e324 = $(`<div id="html_b86fca63c980524a2063cb347ec7e324" style="width: 100.0%; height: 100.0%;">Richmond Maxi-center</div>`)[0];
+                popup_69affd6705b569d19d88793efdeb3d7e.setContent(html_b86fca63c980524a2063cb347ec7e324);
+            
+        
+
+        circle_marker_dd00a909856986d5763b17f94b887588.bindPopup(popup_69affd6705b569d19d88793efdeb3d7e)
+        ;
+
+        
+    
+    
+            var circle_marker_985e15f77eda65419fc7e42a9d8ce825 = L.circleMarker(
+                [37.77240194, -122.42281235],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_26821db8e60bb02b123620a8889115d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f5d465ee5d665016db126421a6351d9 = $(`<div id="html_7f5d465ee5d665016db126421a6351d9" style="width: 100.0%; height: 100.0%;">Lyon-martin Womens Health Services</div>`)[0];
+                popup_26821db8e60bb02b123620a8889115d7.setContent(html_7f5d465ee5d665016db126421a6351d9);
+            
+        
+
+        circle_marker_985e15f77eda65419fc7e42a9d8ce825.bindPopup(popup_26821db8e60bb02b123620a8889115d7)
+        ;
+
+        
+    
+    
+            var circle_marker_69065ec845e373605d4e9c5ae0772017 = L.circleMarker(
+                [37.7760443, -122.40702945],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_3f16027329c80ec26a75c90465ddc474 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87befc3d76885096443f46a611ebb22f = $(`<div id="html_87befc3d76885096443f46a611ebb22f" style="width: 100.0%; height: 100.0%;">San Francisco City Clinic</div>`)[0];
+                popup_3f16027329c80ec26a75c90465ddc474.setContent(html_87befc3d76885096443f46a611ebb22f);
+            
+        
+
+        circle_marker_69065ec845e373605d4e9c5ae0772017.bindPopup(popup_3f16027329c80ec26a75c90465ddc474)
+        ;
+
+        
+    
+    
+            var circle_marker_333431b1ae534c7cad4d83290117507a = L.circleMarker(
+                [37.7802172, -122.41279075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_a00b079451e6767e89129dfc923a53f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d284b33e8fe1aef231a05ebab052aa98 = $(`<div id="html_d284b33e8fe1aef231a05ebab052aa98" style="width: 100.0%; height: 100.0%;">Baart Market Clinic</div>`)[0];
+                popup_a00b079451e6767e89129dfc923a53f1.setContent(html_d284b33e8fe1aef231a05ebab052aa98);
+            
+        
+
+        circle_marker_333431b1ae534c7cad4d83290117507a.bindPopup(popup_a00b079451e6767e89129dfc923a53f1)
+        ;
+
+        
+    
+    
+            var circle_marker_b9909a68fb85f1a226f6f18b259c6fbe = L.circleMarker(
+                [37.77766069, -122.40888641],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_ff1d9d9e8416be24b205995ee37c0ecf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a33413bd665936ef7ec88fc752096489 = $(`<div id="html_a33413bd665936ef7ec88fc752096489" style="width: 100.0%; height: 100.0%;">South Of Market Health Center</div>`)[0];
+                popup_ff1d9d9e8416be24b205995ee37c0ecf.setContent(html_a33413bd665936ef7ec88fc752096489);
+            
+        
+
+        circle_marker_b9909a68fb85f1a226f6f18b259c6fbe.bindPopup(popup_ff1d9d9e8416be24b205995ee37c0ecf)
+        ;
+
+        
+    
+    
+            var circle_marker_235e4898fd99e5307ed697206a58c644 = L.circleMarker(
+                [37.78509497, -122.41164953],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_56b89889f292d97aea04f6d95738de82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f75c8606ba2f94f4bf8897943f72cf4 = $(`<div id="html_4f75c8606ba2f94f4bf8897943f72cf4" style="width: 100.0%; height: 100.0%;">Glide Health Services</div>`)[0];
+                popup_56b89889f292d97aea04f6d95738de82.setContent(html_4f75c8606ba2f94f4bf8897943f72cf4);
+            
+        
+
+        circle_marker_235e4898fd99e5307ed697206a58c644.bindPopup(popup_56b89889f292d97aea04f6d95738de82)
+        ;
+
+        
+    
+    
+            var circle_marker_3c6eb7296973f0c46217f2575f15c326 = L.circleMarker(
+                [37.78358665, -122.41919042],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_aca110a945fccc3bbc172a1b29c8d6f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c80a88ab6c69b55f3de802be99aa8038 = $(`<div id="html_c80a88ab6c69b55f3de802be99aa8038" style="width: 100.0%; height: 100.0%;">Asian & Pacific Islander Wellness Center</div>`)[0];
+                popup_aca110a945fccc3bbc172a1b29c8d6f8.setContent(html_c80a88ab6c69b55f3de802be99aa8038);
+            
+        
+
+        circle_marker_3c6eb7296973f0c46217f2575f15c326.bindPopup(popup_aca110a945fccc3bbc172a1b29c8d6f8)
+        ;
+
+        
+    
+    
+            var circle_marker_18ea6662234966041c8a37d700f25f69 = L.circleMarker(
+                [37.78518151, -122.42204391],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_d51335bae235092d0f127ec0635ad28e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e35c94aeb73868e8e1c7e96275d36f40 = $(`<div id="html_e35c94aeb73868e8e1c7e96275d36f40" style="width: 100.0%; height: 100.0%;">Merriouns Psychological Institute</div>`)[0];
+                popup_d51335bae235092d0f127ec0635ad28e.setContent(html_e35c94aeb73868e8e1c7e96275d36f40);
+            
+        
+
+        circle_marker_18ea6662234966041c8a37d700f25f69.bindPopup(popup_d51335bae235092d0f127ec0635ad28e)
+        ;
+
+        
+    
+    
+            var circle_marker_f356dd1c09383e375d12b0410f8dd329 = L.circleMarker(
+                [37.77797841, -122.41853943],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_a606b5180c59cd87b7e4e38dac69f753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f129e163c7ac2979146cb1cd58d653df = $(`<div id="html_f129e163c7ac2979146cb1cd58d653df" style="width: 100.0%; height: 100.0%;">Tom Waddell Health Center</div>`)[0];
+                popup_a606b5180c59cd87b7e4e38dac69f753.setContent(html_f129e163c7ac2979146cb1cd58d653df);
+            
+        
+
+        circle_marker_f356dd1c09383e375d12b0410f8dd329.bindPopup(popup_a606b5180c59cd87b7e4e38dac69f753)
+        ;
+
+        
+    
+    
+            var circle_marker_15e8c4814b4a87999467627e253eaac7 = L.circleMarker(
+                [37.75606363, -122.40771972],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_194a1b5a5386f5920d04817eb484250a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df10e41e3659b039d721f50c2dc1d538 = $(`<div id="html_df10e41e3659b039d721f50c2dc1d538" style="width: 100.0%; height: 100.0%;">San Francisco General Hospital</div>`)[0];
+                popup_194a1b5a5386f5920d04817eb484250a.setContent(html_df10e41e3659b039d721f50c2dc1d538);
+            
+        
+
+        circle_marker_15e8c4814b4a87999467627e253eaac7.bindPopup(popup_194a1b5a5386f5920d04817eb484250a)
+        ;
+
+        
+    
+    
+            var circle_marker_056c881b32a9d76fbf0a9e0f884e1300 = L.circleMarker(
+                [37.72207048, -122.43982883],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_e653ee889dddb916bd5d61702b61eb90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92864c589abf41dd5910c1deaf40978d = $(`<div id="html_92864c589abf41dd5910c1deaf40978d" style="width: 100.0%; height: 100.0%;">Balboa Teen Health Center</div>`)[0];
+                popup_e653ee889dddb916bd5d61702b61eb90.setContent(html_92864c589abf41dd5910c1deaf40978d);
+            
+        
+
+        circle_marker_056c881b32a9d76fbf0a9e0f884e1300.bindPopup(popup_e653ee889dddb916bd5d61702b61eb90)
+        ;
+
+        
+    
+    
+            var circle_marker_d34582a1d3bf9b981c71861a1c5bd414 = L.circleMarker(
+                [37.77561778, -122.41557678],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_96bce8c754c24c75d924141812fd3427 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56b126052891617f6d4f1992dcbdc398 = $(`<div id="html_56b126052891617f6d4f1992dcbdc398" style="width: 100.0%; height: 100.0%;">St. James Infirmary</div>`)[0];
+                popup_96bce8c754c24c75d924141812fd3427.setContent(html_56b126052891617f6d4f1992dcbdc398);
+            
+        
+
+        circle_marker_d34582a1d3bf9b981c71861a1c5bd414.bindPopup(popup_96bce8c754c24c75d924141812fd3427)
+        ;
+
+        
+    
+    
+            var circle_marker_0b48a895d18b08fcd6267f94255e4e9c = L.circleMarker(
+                [37.75577951, -122.40619566],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_5ded5b1165a2405d01d7cc0d381cad8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11883f6e21afd62f7c40761aa2c02f0f = $(`<div id="html_11883f6e21afd62f7c40761aa2c02f0f" style="width: 100.0%; height: 100.0%;">General Medical Clinic At Sfgh</div>`)[0];
+                popup_5ded5b1165a2405d01d7cc0d381cad8f.setContent(html_11883f6e21afd62f7c40761aa2c02f0f);
+            
+        
+
+        circle_marker_0b48a895d18b08fcd6267f94255e4e9c.bindPopup(popup_5ded5b1165a2405d01d7cc0d381cad8f)
+        ;
+
+        
+    
+    
+            var circle_marker_1a253ca4bb0b54cbc4ca46917dcce869 = L.circleMarker(
+                [37.78197735, -122.41317234],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_066f974acdfbbdc620d531209d00f573 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_394014fdf6c195e248a3fdf9171e5cc8 = $(`<div id="html_394014fdf6c195e248a3fdf9171e5cc8" style="width: 100.0%; height: 100.0%;">St. Anthony Medical Clinic</div>`)[0];
+                popup_066f974acdfbbdc620d531209d00f573.setContent(html_394014fdf6c195e248a3fdf9171e5cc8);
+            
+        
+
+        circle_marker_1a253ca4bb0b54cbc4ca46917dcce869.bindPopup(popup_066f974acdfbbdc620d531209d00f573)
+        ;
+
+        
+    
+    
+            var circle_marker_4cb5d75da8a4c48aec5b8798955f0254 = L.circleMarker(
+                [37.7475674, -122.42023356],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_b108a861811e99bae79fe06926758d18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0d262b3a0ec98ce2cd1de34e96c8a26 = $(`<div id="html_f0d262b3a0ec98ce2cd1de34e96c8a26" style="width: 100.0%; height: 100.0%;">St. Luke's Health Care Center - Adult Clinic</div>`)[0];
+                popup_b108a861811e99bae79fe06926758d18.setContent(html_f0d262b3a0ec98ce2cd1de34e96c8a26);
+            
+        
+
+        circle_marker_4cb5d75da8a4c48aec5b8798955f0254.bindPopup(popup_b108a861811e99bae79fe06926758d18)
+        ;
+
+        
+    
+    
+            var circle_marker_f318e65a529d7615c8e787e5dff1df8e = L.circleMarker(
+                [37.77019155, -122.44858044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_2290e6fae0cb17187815c723b6b8c898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4777a021179ef28114cc81d6ce2eb92 = $(`<div id="html_b4777a021179ef28114cc81d6ce2eb92" style="width: 100.0%; height: 100.0%;">Haight Ashbury Free Medical Clinic</div>`)[0];
+                popup_2290e6fae0cb17187815c723b6b8c898.setContent(html_b4777a021179ef28114cc81d6ce2eb92);
+            
+        
+
+        circle_marker_f318e65a529d7615c8e787e5dff1df8e.bindPopup(popup_2290e6fae0cb17187815c723b6b8c898)
+        ;
+
+        
+    
+    
+            var circle_marker_56be518f2580b2142948c6226c23c02a = L.circleMarker(
+                [37.77918701, -122.40779106],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_1b633f617b7c90b6905c663f0831b781 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e76f0b6adb8cf960812c4339c4770e42 = $(`<div id="html_e76f0b6adb8cf960812c4339c4770e42" style="width: 100.0%; height: 100.0%;">Ahf Healthcare Center - San Francisco</div>`)[0];
+                popup_1b633f617b7c90b6905c663f0831b781.setContent(html_e76f0b6adb8cf960812c4339c4770e42);
+            
+        
+
+        circle_marker_56be518f2580b2142948c6226c23c02a.bindPopup(popup_1b633f617b7c90b6905c663f0831b781)
+        ;
+
+        
+    
+    
+            var circle_marker_6a995b76f7a78324e3b948da3068fc47 = L.circleMarker(
+                [37.74700015, -122.4200801],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_b8e12cc575ae4121043ab952c6174aee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39d5f04f9802247af4e7cdce33a462de = $(`<div id="html_39d5f04f9802247af4e7cdce33a462de" style="width: 100.0%; height: 100.0%;">Mission Neighborhood Health Center - Valencia Clinic</div>`)[0];
+                popup_b8e12cc575ae4121043ab952c6174aee.setContent(html_39d5f04f9802247af4e7cdce33a462de);
+            
+        
+
+        circle_marker_6a995b76f7a78324e3b948da3068fc47.bindPopup(popup_b8e12cc575ae4121043ab952c6174aee)
+        ;
+
+        
+    
+    
+            var circle_marker_06521554648dab26be5e03bb11e3bb44 = L.circleMarker(
+                [37.78268324, -122.44370676],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_a4bde96abcc19e6b047fbc23626bac67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f613d4d4eb51cb6577b074672351e43 = $(`<div id="html_3f613d4d4eb51cb6577b074672351e43" style="width: 100.0%; height: 100.0%;">Kaiser Fnd Hosp - San Francisco</div>`)[0];
+                popup_a4bde96abcc19e6b047fbc23626bac67.setContent(html_3f613d4d4eb51cb6577b074672351e43);
+            
+        
+
+        circle_marker_06521554648dab26be5e03bb11e3bb44.bindPopup(popup_a4bde96abcc19e6b047fbc23626bac67)
+        ;
+
+        
+    
+    
+            var circle_marker_7247cadc7124f197baaf846dc7e278c0 = L.circleMarker(
+                [37.72908815, -122.40426045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_aadc366bfd64b47008c41baa0008b676 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98113f928f48bc0a34024e880a71751c = $(`<div id="html_98113f928f48bc0a34024e880a71751c" style="width: 100.0%; height: 100.0%;">North East Medical Services - San Bruno Avenue</div>`)[0];
+                popup_aadc366bfd64b47008c41baa0008b676.setContent(html_98113f928f48bc0a34024e880a71751c);
+            
+        
+
+        circle_marker_7247cadc7124f197baaf846dc7e278c0.bindPopup(popup_aadc366bfd64b47008c41baa0008b676)
+        ;
+
+        
+    
+    
+            var circle_marker_163c52e076be9714c8c1b214399b74c8 = L.circleMarker(
+                [37.76905419, -122.4358177],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_0924f577cc17c79d80164abe173749f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1926e6b706cf25d8311643188bbae31 = $(`<div id="html_f1926e6b706cf25d8311643188bbae31" style="width: 100.0%; height: 100.0%;">California Pacific Med Ctr-davies Campus</div>`)[0];
+                popup_0924f577cc17c79d80164abe173749f9.setContent(html_f1926e6b706cf25d8311643188bbae31);
+            
+        
+
+        circle_marker_163c52e076be9714c8c1b214399b74c8.bindPopup(popup_0924f577cc17c79d80164abe173749f9)
+        ;
+
+        
+    
+    
+            var circle_marker_8652bd9d13b4f26774dc039551602c97 = L.circleMarker(
+                [37.7475674, -122.42023356],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_c41fcefcc2d9f8005769e7adb78ba2e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0935ea3a4c0418cf3637586e0ff6cea7 = $(`<div id="html_0935ea3a4c0418cf3637586e0ff6cea7" style="width: 100.0%; height: 100.0%;">St. Luke's Health Care Center - Women's Clinic</div>`)[0];
+                popup_c41fcefcc2d9f8005769e7adb78ba2e6.setContent(html_0935ea3a4c0418cf3637586e0ff6cea7);
+            
+        
+
+        circle_marker_8652bd9d13b4f26774dc039551602c97.bindPopup(popup_c41fcefcc2d9f8005769e7adb78ba2e6)
+        ;
+
+        
+    
+    
+            var circle_marker_c47adee4585547b561f7c849f45c5445 = L.circleMarker(
+                [37.74215288, -122.42510834],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_b560c5f8776738cfea0ea44506643f95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_166ff1e7f3a7cc30e20d06d71df2886e = $(`<div id="html_166ff1e7f3a7cc30e20d06d71df2886e" style="width: 100.0%; height: 100.0%;">On Lok 30th Street Community Center</div>`)[0];
+                popup_b560c5f8776738cfea0ea44506643f95.setContent(html_166ff1e7f3a7cc30e20d06d71df2886e);
+            
+        
+
+        circle_marker_c47adee4585547b561f7c849f45c5445.bindPopup(popup_b560c5f8776738cfea0ea44506643f95)
+        ;
+
+        
+    
+    
+            var circle_marker_56f17c491e2173561397b410bb108c55 = L.circleMarker(
+                [37.78267054, -122.41458162],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_b4ef19b8acd160c07609418f15c0892a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e14ae52fb53749b479a38cb7db5fb5d9 = $(`<div id="html_e14ae52fb53749b479a38cb7db5fb5d9" style="width: 100.0%; height: 100.0%;">Curry Senior Center</div>`)[0];
+                popup_b4ef19b8acd160c07609418f15c0892a.setContent(html_e14ae52fb53749b479a38cb7db5fb5d9);
+            
+        
+
+        circle_marker_56f17c491e2173561397b410bb108c55.bindPopup(popup_b4ef19b8acd160c07609418f15c0892a)
+        ;
+
+        
+    
+    
+            var circle_marker_aa076db1b48d8865f5569f7b5082bf82 = L.circleMarker(
+                [37.73086205, -122.3922007],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_abe17aae110d4fd507f181a8173cce69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66927d88ab7abbe7b6b105714bb48233 = $(`<div id="html_66927d88ab7abbe7b6b105714bb48233" style="width: 100.0%; height: 100.0%;">3rd Street Youth Center & Clinic</div>`)[0];
+                popup_abe17aae110d4fd507f181a8173cce69.setContent(html_66927d88ab7abbe7b6b105714bb48233);
+            
+        
+
+        circle_marker_aa076db1b48d8865f5569f7b5082bf82.bindPopup(popup_abe17aae110d4fd507f181a8173cce69)
+        ;
+
+        
+    
+    
+            var circle_marker_d50770ca7c03f098e3dabacdcc770fb5 = L.circleMarker(
+                [37.72591049, -122.39246655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_a4338cfa39f5a5edcbee6c59a7ff7fcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d39748692cb9f1701454cff65683be5e = $(`<div id="html_d39748692cb9f1701454cff65683be5e" style="width: 100.0%; height: 100.0%;">Southeast Health Center</div>`)[0];
+                popup_a4338cfa39f5a5edcbee6c59a7ff7fcb.setContent(html_d39748692cb9f1701454cff65683be5e);
+            
+        
+
+        circle_marker_d50770ca7c03f098e3dabacdcc770fb5.bindPopup(popup_a4338cfa39f5a5edcbee6c59a7ff7fcb)
+        ;
+
+        
+    
+    
+            var circle_marker_3fb6d743db6962df852897d5f22055d3 = L.circleMarker(
+                [37.74240843, -122.49104051],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_08cb27942dbb7f0443f7a58dddf14f06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4e2ecde46cc4aa8ce593202c39d0658 = $(`<div id="html_a4e2ecde46cc4aa8ce593202c39d0658" style="width: 100.0%; height: 100.0%;">North East Medical Services-taraval</div>`)[0];
+                popup_08cb27942dbb7f0443f7a58dddf14f06.setContent(html_a4e2ecde46cc4aa8ce593202c39d0658);
+            
+        
+
+        circle_marker_3fb6d743db6962df852897d5f22055d3.bindPopup(popup_08cb27942dbb7f0443f7a58dddf14f06)
+        ;
+
+        
+    
+    
+            var circle_marker_ae6ade8845b51c2dbdb79fda2f1dac8b = L.circleMarker(
+                [37.75690321, -122.4066315],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_e08492c06c9b4a5aed5d138f62d244d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_994f7644e1a0016368f069b124877996 = $(`<div id="html_994f7644e1a0016368f069b124877996" style="width: 100.0%; height: 100.0%;">Family Health Center At Sfgh</div>`)[0];
+                popup_e08492c06c9b4a5aed5d138f62d244d2.setContent(html_994f7644e1a0016368f069b124877996);
+            
+        
+
+        circle_marker_ae6ade8845b51c2dbdb79fda2f1dac8b.bindPopup(popup_e08492c06c9b4a5aed5d138f62d244d2)
+        ;
+
+        
+    
+    
+            var circle_marker_a1e6b3eb5e23c3c769b428bb7a3d5fdd = L.circleMarker(
+                [37.71182702, -122.40524939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_dcdabf6a2de0848b76ba1ddf8a39da9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d134ac47963aa9f2b7d9fae059392ee = $(`<div id="html_4d134ac47963aa9f2b7d9fae059392ee" style="width: 100.0%; height: 100.0%;">North East Medical Services-leland Avenue</div>`)[0];
+                popup_dcdabf6a2de0848b76ba1ddf8a39da9b.setContent(html_4d134ac47963aa9f2b7d9fae059392ee);
+            
+        
+
+        circle_marker_a1e6b3eb5e23c3c769b428bb7a3d5fdd.bindPopup(popup_dcdabf6a2de0848b76ba1ddf8a39da9b)
+        ;
+
+        
+    
+    
+            var circle_marker_f242ee5b8f89ea9591c695f58b5fb66b = L.circleMarker(
+                [37.74762573, -122.45871779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_f035919099ccea4c3daa9a14be0651b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_493750407dddea67a81b96189e30100a = $(`<div id="html_493750407dddea67a81b96189e30100a" style="width: 100.0%; height: 100.0%;">Laguna Honda Hospital And Rehabilitation Center</div>`)[0];
+                popup_f035919099ccea4c3daa9a14be0651b1.setContent(html_493750407dddea67a81b96189e30100a);
+            
+        
+
+        circle_marker_f242ee5b8f89ea9591c695f58b5fb66b.bindPopup(popup_f035919099ccea4c3daa9a14be0651b1)
+        ;
+
+        
+    
+    
+            var circle_marker_5e5f77b4e2717efab0f4b2f1e192cc5c = L.circleMarker(
+                [37.7475674, -122.42023356],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_6bad8197b28ea58cc19f90067f25f8ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_777083be6260483fa992d68d3340a0ec = $(`<div id="html_777083be6260483fa992d68d3340a0ec" style="width: 100.0%; height: 100.0%;">St. Luke's Health Care Center - Pediatric Clinic</div>`)[0];
+                popup_6bad8197b28ea58cc19f90067f25f8ee.setContent(html_777083be6260483fa992d68d3340a0ec);
+            
+        
+
+        circle_marker_5e5f77b4e2717efab0f4b2f1e192cc5c.bindPopup(popup_6bad8197b28ea58cc19f90067f25f8ee)
+        ;
+
+        
+    
+    
+            var circle_marker_4c25ab81b2cb7688c901f1972524e836 = L.circleMarker(
+                [37.781938, -122.43586943],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+    
+        var popup_8d324c9584a148de3436ce68a19bf861 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f68efe640b32153c425a3f98d93f71 = $(`<div id="html_70f68efe640b32153c425a3f98d93f71" style="width: 100.0%; height: 100.0%;">Maxine Hall Health Center</div>`)[0];
+                popup_8d324c9584a148de3436ce68a19bf861.setContent(html_70f68efe640b32153c425a3f98d93f71);
+            
+        
+
+        circle_marker_4c25ab81b2cb7688c901f1972524e836.bindPopup(popup_8d324c9584a148de3436ce68a19bf861)
+        ;
+
+        
+    
+    
+            tile_layer_8f91faa31b9f6b95ecc10dd688d87a32.addTo(map_703ec869229afcbbd04cc47a56e4bb5e);
+        
+</script>
+</html>
