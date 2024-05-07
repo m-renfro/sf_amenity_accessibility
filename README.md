@@ -43,6 +43,12 @@ Figure 1 shows the geographic distribution of parks in San Francisco. Parks prov
 TODO: Insert 
 
 ### Schools
+
+Geographic distribution of public schools in San Francisco. I used a marker cluster to aggregate different school locations and display on the map.
+
+<iframe src="index/schools_map.html" width="100%" height="600px"></iframe>
+
+
 ### Healthcare Facilities
 Geographic disribution of healthcare facilities in San Francisco
 <iframe src="index/health_map.html" width="100%" height="600px"></iframe>
