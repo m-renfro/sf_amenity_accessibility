@@ -85,6 +85,7 @@ Figure 3.0 details the geographic distribution of healthcare facilities in San F
 
 Figure 3.1 is a choropleth map of census tracts detailing cumulative healthcare accessibility metrics for each tract in the city. I followed the same process to produce this map as I did with parks and schools: I sorted the number of healthcare facilities within 1000 meters walking distances into a percentile ranking and assigned these percentiles a color in the choropleth color ramp.
 
+**Figure 3.1: Number of Healthcare Facilities Within a 1000m Walking Distance by Census Tract (Percentile Ranking)**
 <iframe src="index/healthcare_percentile.html" width="100%" height="600px"></iframe>
 
 
