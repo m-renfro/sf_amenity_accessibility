@@ -44,6 +44,8 @@ TODO: Insert
 
 ### Schools
 ### Healthcare Facilities
+Geographic disribution of healthcare facilities in San Francisco
+<iframe src="index/health_map.html" width="100%" height="600px"></iframe>
 
 ## Findings - Analyzing Who Has Access
 ### Parks
